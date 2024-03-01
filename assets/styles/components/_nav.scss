@@ -1,0 +1,28 @@
+@import "typo";
+@import "colors";
+
+.navbar-tp {
+    padding-top: 10px;
+
+        a {
+            color: $black;
+            font-size: 32px;
+            font-weight: map-get($map: $font-weights, $key: semiBold);
+        }
+
+        .navbar-nav {
+        .nav-item {
+            margin-right: 100px;
+        }
+
+        .active {
+            color: $purple !important;
+        }
+
+        .nav-link {
+            color: $black;
+            font-size: 18px;
+            font-weight: map-get($map: $font-weights, $key: medium);
+        }
+    }
+}

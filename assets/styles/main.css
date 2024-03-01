@@ -1,0 +1,220 @@
+.navbar-tp {
+  padding-top: 10px;
+}
+.navbar-tp a {
+  color: #1F1449;
+  font-size: 32px;
+  font-weight: 600;
+}
+.navbar-tp .navbar-nav .nav-item {
+  margin-right: 100px;
+}
+.navbar-tp .navbar-nav .active {
+  color: #5C40CC !important;
+}
+.navbar-tp .navbar-nav .nav-link {
+  color: #1F1449;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#first {
+  margin-top: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#first .row .left-content p:first-child {
+  color: #5C40CC;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 10px;
+}
+#first .row .left-content h3 {
+  color: #1F1449;
+  font-size: 96px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-top: 0;
+}
+#first .row .left-content p {
+  margin-top: 15px;
+  color: #1F1449;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+#first .row .left-content .details {
+  margin-top: 200px;
+}
+#first .row .left-content .details .items .icons {
+  width: 35px;
+  height: 35px;
+  background-image: url("/assets/images/icon-produced.png");
+  background-size: cover;
+  margin-right: 10px;
+}
+#first .row .left-content .details .items .title {
+  font-size: 20px;
+  color: #1F1449;
+  font-weight: 500;
+  line-height: 5px;
+}
+#first .row .left-content .details .items .content {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+}
+#first .row .right-content {
+  margin-top: 5%;
+}
+#first .row .right-content .video {
+  position: relative;
+  width: 95%;
+  height: 70vh;
+  border-radius: 15px;
+  background-color: #D9D9D9;
+}
+#first .row .right-content .video .row .block {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  background-color: #1F1449;
+  border-radius: 15px;
+}
+#first .row .right-content .video .row .first {
+  top: -12%;
+  left: -8%;
+  width: 80%;
+  height: 100%;
+  background-color: transparent;
+}
+#first .row .right-content .video .row .first .top {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#first .row .right-content .video .row .first .top .behind {
+  position: absolute;
+  z-index: 0;
+  top: -4%;
+  left: -4%;
+  width: 25%;
+  height: 26%;
+  border-radius: 15px;
+  border: 2px solid #5C40CC;
+}
+#first .row .right-content .video .row .first .top .box {
+  position: absolute;
+  z-index: 1;
+  width: 25%;
+  height: 26%;
+  background-color: #1F1449;
+  border-radius: 15px;
+}
+#first .row .right-content .video .row .first .mid {
+  position: absolute;
+  top: 40%;
+  left: -7%;
+  width: 32%;
+  height: 36%;
+  background-color: #1F1449;
+  border-radius: 15px;
+}
+#first .row .right-content .video .row .first .mid .dot-block {
+  width: 140px;
+  height: 200px;
+  position: absolute;
+  z-index: -1;
+  bottom: -90%;
+  left: -40%;
+  background-image: url("/assets/images/dot-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#first .row .right-content .video .row .first .bottom {
+  position: absolute;
+  bottom: -16%;
+  width: 70%;
+  height: 12%;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+#first .row .right-content .video .row .second {
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: transparent;
+}
+#first .row .right-content .video .row .second .top {
+  position: absolute;
+  top: -13%;
+  right: -13%;
+  width: 40%;
+  height: 26%;
+  background-color: #1F1449;
+  border-radius: 0;
+}
+#first .row .right-content .video .row .second .mid {
+  position: absolute;
+  top: 30%;
+  right: -14%;
+  width: 35%;
+  height: 24%;
+  border: 3px solid #5C40CC;
+  border-radius: 15px;
+  padding: 10px;
+}
+#first .row .right-content .video .row .second .mid div {
+  width: 100%;
+  height: 100%;
+  background-color: #1F1449;
+  border-radius: 15px;
+}
+#first .row .right-content .video .row .second .bottom {
+  position: absolute;
+  bottom: -2%;
+  right: -15%;
+  width: 70%;
+  height: 40%;
+  border-radius: 15px;
+  background-color: #1F1449;
+}
+
+.btn {
+  border-radius: 10px;
+  padding: 15px;
+  border: none;
+  background-color: #5C40CC;
+}
+.btn img.icon-play {
+  width: 30px;
+  height: 30px;
+}
+
+.btn.explore {
+  padding: 15px 32px;
+  background-color: #DBD7EC;
+  color: #5C40CC;
+  margin-right: 30px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: #F9F9FB;
+  background-image: url("/assets/images/circle-bg.png");
+  background-size: 120vh;
+  background-position-x: right;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=main.css.map */

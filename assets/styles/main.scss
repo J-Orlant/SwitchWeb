@@ -1,0 +1,25 @@
+@import './components/nav';
+@import './components/colors';
+@import './components/first';
+@import './components/button';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+
+    background-color: $background;
+    background-image: url('/assets/images/circle-bg.png');
+    background-size: 120vh;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
