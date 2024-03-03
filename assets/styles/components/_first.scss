@@ -30,34 +30,6 @@
                 font-weight: map-get($map: $font-weights, $key: regular);
                 line-height: 30px;
             }
-
-            .details {
-                margin-top: 200px;
-
-                .items {
-                    .icons {
-                        width: 35px;
-                        height: 35px;
-                        background-image: url("/assets/images/icon-produced.png");
-                        background-size: cover;
-
-                        margin-right: 10px;
-                    }
-                    
-                    .title {
-                        font-size: 20px;
-                        color: $black;
-                        font-weight: map-get($map: $font-weights, $key: medium);
-                        line-height: 5px;
-                    }
-
-                    .content {
-                        font-size: 15px;
-                        font-weight: map-get($map: $font-weights, $key: regular);
-                        line-height: 23px;
-                    }
-                }
-            }
         }
 
         .right-content {
@@ -222,4 +194,43 @@
             }
         }
     }
+
+    .details {
+        .items {
+            display: flex;
+            align-items: start;
+            .icons {
+                width: 30px;
+                height: 30px;
+                background-image: url("/assets/images/icon-produced.png");
+                background-size: cover;
+
+                margin-right: 10px;
+            }
+
+            #release {
+                background-image: url("/assets/images/icon-release.png");
+            }
+
+            #present {
+                background-image: url("/assets/images/icon-present.png");
+            }
+            
+            .title {
+                font-size: 20px;
+                color: $black;
+                font-weight: map-get($map: $font-weights, $key: medium);
+
+                margin-bottom: 0;
+            }
+
+            .content {
+                max-width: 100%;
+                font-size: 15px;
+                font-weight: map-get($map: $font-weights, $key: regular);
+                line-height: 23px;
+            }
+        }
+    }
+
 }
