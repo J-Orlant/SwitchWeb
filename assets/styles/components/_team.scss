@@ -2,7 +2,6 @@
     margin-top: 80px;
 
     width: 100%;
-    height: 80vh;
 
     padding: 0 40px;
 
@@ -15,24 +14,44 @@
         color: $black;
     }
 
+    .cards-container {
+        display: flex;
+    }
+    
     .cards {
-        height: 69px;
+        width: 25%;
+        height: 100%;
 
-        padding: 0 27px;
         margin-top: 50px;
         margin-bottom: 70px;
+        margin-left: 20px;
+        margin-right: 20px;
 
         .img {
             width: 100%;
-            height: 280px;
+            height: 270px;
 
             background-color: $black;
-            border-radius: 15px 15px 0 0;
+            background-size: cover;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .img.first {
+            background-image: url("/assets/images/andrea.jpg");
+        }
+        .img.second {
+            background-image: url("/assets/images/veni.jpg");
+        }
+        .img.third {
+            background-image: url("/assets/images/yoges.jpg");
+        }
+        .img.fourth {
+            background-image: url("/assets/images/rodrick.jpg");
         }
 
         .content {
             width: 100%;
-            height: 140px;
+            height: 170px;
 
             background-color: #ffffff;
             border-radius: 0 0 15px 15px;
@@ -90,3 +109,36 @@
         }
     }
 }
+
+// @media screen and (max-width: 850px){
+//     .cards-container {
+//         flex-direction: column;
+
+//         .cards {
+//             height: 200px !important;
+
+//             width: 50% !important;
+//             display: flex;
+
+//             border-radius: 15px !important;
+//             margin-bottom: 25px;
+            
+//             .img {
+//                 width: 150% !important;
+//                 height: 100% !important;
+
+//                 border-radius: 15px 0 0 15px !important;
+//             }
+
+//             .content {
+//                 width: 250% !important;
+//                 height: 100% !important;    
+
+//                 background-color: #ffffff;
+//                 border-radius: 0 0 15px 15px !important;
+
+//                 padding: 10px 15px !important;
+//             }
+//         }
+//     }
+// }

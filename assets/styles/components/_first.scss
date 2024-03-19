@@ -43,6 +43,9 @@
 
                 border-radius: 15px;
                 background-color: $grey;
+                background-image: url('/assets/images/thumbnail.png');
+                background-size: cover;
+                background-position: center;
 
                 .row {
                     .block {
@@ -93,6 +96,10 @@
         
                                 background-color: $black;
                                 border-radius: 15px;
+
+                                // Kiri atas
+                                background-image: url("/assets/images/group-3.jpg");
+                                background-size: cover;
                             }
                         }
     
@@ -107,6 +114,10 @@
                             background-color: $black;
                             border-radius: 15px;
 
+                            // kiri tengah
+                            background-image: url("/assets/images/group-3.jpg");
+                            background-size: cover;
+
                             .dot-block {
                                 width: 140px;
                                 height: 200px;
@@ -116,7 +127,6 @@
                                 bottom: -90%;
                                 left: -40%;
                                 
-                                // background-color: black;
                                 background-image: url('/assets/images/dot-bg.png');
                                 background-size: cover;
                                 background-repeat: no-repeat;
@@ -154,6 +164,10 @@
                             background-color: $black;
         
                             border-radius: 0;
+                            
+                            // Kanan atas
+                            background-image: url("/assets/images/group-3.jpg");
+                            background-size: cover;
                         }
 
                         .mid {
@@ -175,6 +189,10 @@
 
                                 background-color: $black;
                                 border-radius: 15px;
+
+                                // Kanan tengah
+                                background-image: url("/assets/images/group-3.jpg");
+                                background-size: cover;
                             }
                         }
 
@@ -188,6 +206,10 @@
         
                             border-radius: 15px;
                             background-color: $black;
+
+                            // Kanan bawah
+                            background-image: url("/assets/images/group-3.jpg");
+                            background-size: cover;
                         }
                     }   
                 }
@@ -233,4 +255,22 @@
         }
     }
 
+}
+
+@media screen and (max-width: 800px){
+    #first {
+        padding: 0;
+    }
+
+    .left-content {
+        margin-bottom: 100px;
+    }
+
+    .dot-block {
+        display: none;
+    }
+
+    .details {
+        margin-top: 50px;
+    }
 }
