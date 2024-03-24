@@ -17,6 +17,7 @@ html {
 }
 
 body {
+    zoom: 1;
     width: 100%;
     font-family: "Poppins", sans-serif;
 
@@ -46,5 +47,11 @@ body {
                 }
             }
         }
+    }
+}
+
+@media (max-width: 1000px) {
+    body {
+        zoom: 0.75;
     }
 }
