@@ -124,14 +124,14 @@
         <div class="col-md-5 col-sm-12 d-flex flex-column align-items-center justify-content-center about">
           <h3 class="d-flex align-items-center justify-content-center" data-aos="fade-left" data-aos-duration="1000">About Video</h3>
 
-            <p data-aos="fade-up" data-aos-duration="1000">
+            <!-- <p data-aos="fade-up" data-aos-duration="1000">
               Sebuah cerita tentang makna sejati dari keluarga, film ini menggambarkan awal yang bahagia dari sebuah keluarga yang penuh cinta dan kebahagiaan. Namun, kehidupan mereka tiba-tiba berubah drastis ketika sebuah peristiwa tak terduga menghantam mereka. <br> <br>
               Keluarga yang dulu penuh tawa dan kebersamaan, kini terpuruk dalam kesedihan dan keputusasaan. Mereka harus berhadapan dengan cobaan yang menguji ikatan keluarga mereka. Pertanyaan pun muncul, apakah keluarga ini akan bertahan atau berantakan? <br> <br>
               Di tengah badai yang mengguncang, mereka harus mencari kekuatan dalam satu sama lain untuk melalui masa-masa sulit ini. Namun, apakah cinta dan persatuan mereka cukup kuat untuk mengatasi semua rintangan yang mengancam menghancurkan keluarga mereka? <br> <br>
               Dalam cerita yang penuh dengan emosi dan kejutan, film ini mengajarkan kita bahwa keluarga bukanlah selalu tentang kebahagiaan, tetapi juga tentang bagaimana mereka bersama-sama mengatasi setiap cobaan yang datang, memperkuat ikatan yang ada, dan menemukan arti sejati dari keluarga.
-            </p>
+            </p> -->
 
-            <!-- <li class="d-flex col-md-12 justify-content-between align-items-start" data-aos="fade-up" data-a="1000"> 
+            <li class="d-flex col-md-12 justify-content-between align-items-start" data-aos="fade-up" data-a="1000"> 
               <div class="d-flex justify-content-center align-items-center title">
                 <div class="icon-check"></div>
                 Frame rate
@@ -165,7 +165,7 @@
                 Animation
               </div>
               Ilustration  
-            </li> -->
+            </li>
         </div>
       </div>
     </div>
