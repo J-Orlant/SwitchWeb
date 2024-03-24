@@ -43,7 +43,7 @@
 
                 border-radius: 15px;
                 background-color: $grey;
-                background-image: url('/assets/images/thumbnail.png');
+                background-image: url('/assets/images/bg.jpg');
                 background-size: cover;
                 background-position: center;
 
@@ -98,8 +98,9 @@
                                 border-radius: 15px;
 
                                 // Kiri atas
-                                background-image: url("/assets/images/group-3.jpg");
+                                background-image: url("/assets/images/andres.jpg");
                                 background-size: cover;
+                                background-position: center;
                             }
                         }
     
@@ -115,8 +116,9 @@
                             border-radius: 15px;
 
                             // kiri tengah
-                            background-image: url("/assets/images/group-3.jpg");
+                            background-image: url("/assets/images/venis.jpg");
                             background-size: cover;
+                            background-position: center;
 
                             .dot-block {
                                 width: 140px;
@@ -160,14 +162,17 @@
                             right: -13%;
         
                             width: 40%;
-                            height: 26%;
+                            height: 30%;
                             background-color: $black;
         
                             border-radius: 0;
                             
                             // Kanan atas
-                            background-image: url("/assets/images/group-3.jpg");
+                            background-image: url("/assets/images/ibs.jpg");
                             background-size: cover;
+                            background-position: center;
+
+                            border-radius: 15px;
                         }
 
                         .mid {
@@ -191,8 +196,9 @@
                                 border-radius: 15px;
 
                                 // Kanan tengah
-                                background-image: url("/assets/images/group-3.jpg");
+                                background-image: url("/assets/images/witchs.jpg");
                                 background-size: cover;
+                                background-position: center;
                             }
                         }
 
@@ -208,8 +214,9 @@
                             background-color: $black;
 
                             // Kanan bawah
-                            background-image: url("/assets/images/group-3.jpg");
+                            background-image: url("/assets/images/rodiks.jpg");
                             background-size: cover;
+                            background-position: center;
                         }
                     }   
                 }
